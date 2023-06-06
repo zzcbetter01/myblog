@@ -2,7 +2,7 @@ baseURL: https://example.com
 languageCode: en
 defaultContentLanguage: en
 title: KeepIt
-theme: Data Governance
+theme: KeepIt
 paginate: 12
 enableEmoji: yes
 enableRobotsTXT: yes
