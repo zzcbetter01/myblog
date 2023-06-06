@@ -3,7 +3,7 @@ title: 数据治理概述—“无治理、不分析”
 author: 郑治超
 date: '2023-06-06'
 categories:
-  - Data Governance
+  - R
 tags:
   - R Markdown
 slug: r
