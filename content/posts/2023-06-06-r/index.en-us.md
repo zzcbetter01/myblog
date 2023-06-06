@@ -1,13 +1,13 @@
 ---
-title: "数据治理概述—“无治理、不分析”"
-author: "郑治超"
+title: 数据治理概述—“无治理、不分析”
+author: 郑治超
 date: '2023-06-06'
+categories:
+  - Data Governance
+tags:
+  - R Markdown
 slug: r
-categories: Data Governance
-tags: R Markdown
 draft: yes
-description: null
-featured_image: null
 ---
 # 数据治理概述及经验分享
 
