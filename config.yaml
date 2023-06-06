@@ -2,7 +2,7 @@ baseURL: https://example.com
 languageCode: en
 defaultContentLanguage: en
 title: KeepIt
-theme: KeepIt
+theme: 数据治理
 paginate: 12
 enableEmoji: yes
 enableRobotsTXT: yes
@@ -97,4 +97,4 @@ params:
     visitor: yes
   yandex_verification: ''
 author:
-  name: Fastbyte01
+  name: 郑治超
