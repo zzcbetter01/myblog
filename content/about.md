@@ -4,8 +4,8 @@ aliases:
 - about-hugo
 - contact
 author:
-  name: Hugo Authors
-date: "2014-04-09"
+  name: 郑治超
+date: "2023-06-10"
 title: About
 ---
 
