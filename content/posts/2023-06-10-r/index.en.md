@@ -1,15 +1,13 @@
 ---
-title: 我的博客
+title: 数据治理
 author: 郑治超
 date: '2023-06-10'
 slug: r
 categories:
-  - Development
+  - Data Governance
 tags:
-  - development
+  - R Markdown
 draft: yes
 description: ~
 featured_image: ~
 ---
-## 1.我的博客
-今天希望能成功
