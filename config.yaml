@@ -1,100 +1,41 @@
-baseURL: https://example.com
-languageCode: en
-defaultContentLanguage: en
-title: KeepIt
-theme: KeepIt
-paginate: 12
-enableEmoji: yes
-enableRobotsTXT: yes
+baseurl: /
+languageCode: en-US
+title: A Hugo website
+theme: hugo-lithium
 googleAnalytics: ''
-disqusShortname: yourdiscussshortname
-sitemap:
-  changefreq: monthly
-  filename: sitemap.xml
-  priority: 0.5
-blackfriday:
-  hrefTargetBlank: yes
-  nofollowLinks: yes
-  noreferrerLinks: yes
-Permalinks:
-  posts: /:year/:filename/
+disqusShortname: ''
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+permalinks:
+  post: /:year/:month/:day/:slug/
 menu:
   main:
-    - name: Blog
-      url: /posts/
-      weight: 1
-    - name: Categories
-      url: /categories/
-      weight: 3
     - name: About
-      url: /about
-      weight: 4
+      url: /about/
+    - name: GitHub
+      url: https://github.com/rstudio/blogdown
+    - name: Twitter
+      url: https://twitter.com/rstudio
 params:
-  author: Fastbyte01
-  avatar: /images/me/avatar.jpeg
-  baidu_verification: ''
-  bing_verification: ''
-  cdn_url: ''
-  dateFormatToUse: ''
-  description: ''
-  gitalk:
-    clientId: ''
-    clientSecret: ''
-    owner: ''
-    repo: ''
-  gitment:
-    clientId: ''
-    clientSecret: ''
-    owner: ''
-    repo: ''
-  google_verification: ''
-  gravatar: {}
-  home_mode: ''
-  image:
-    height: 600
-    url: cover.png
-    width: 800
-  keywords: ''
-  license: Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/"
-    target="_blank">CC BY-NC 4.0</a>
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  description: A website built through Hugo and blogdown.
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
   logo:
-    height: 40
+    alt: Logo
+    height: 50
     url: logo.png
-    width: 127
-  pinterest_verification: ''
-  publisher:
-    logo:
-      height: 40
-      url: logo.png
-      width: 127
-    name: Fastbyte01
-  share:
-    Facebook: yes
-    Linkedin: yes
-    Twitter: yes
-    copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
-      4.0 International License.
-  since: 2012
-  social:
-    Facebook: xxxx
-    GitHub: xxxx
-    Linkedin: xxxx
-    Twitter: xxxx
-  socialShare: yes
-  subtitle: Data Governance
-  utterances:
-    owner: ''
-    repo: ''
-  valine:
-    appId: your appId
-    appKey: your appKey
-    avatar: mm
-    enable: no
-    language: en
-    notify: no
-    placeholder: your comments ...
-    verify: no
-    visitor: yes
-  yandex_verification: ''
-author:
-  name:zzc
+    width: 50
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: yes
