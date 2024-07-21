@@ -1,2 +1,2 @@
 # myblog
-博客
+text 博客
